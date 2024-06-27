@@ -4,8 +4,8 @@ body {
 
 #logo {
   border-radius: 100%;
-  height: 75px;
-  width: 75px;
+  height: 65px;
+  width: 65px;
 }
 
 a:hover {
@@ -26,12 +26,48 @@ nav {
   top: 30px;
 }
 
-a {
+a {font-size: medium;
   margin: 5px;
 }
 
 h1{text-align: center;
-padding-top: 65px;
+padding-top: 15px;
 color: rgb(61, 61, 126);}
 
 main>img {border-radius: 15%;}
+
+header{display: flex;
+flex-direction:row;
+border-bottom: solid black;padding-bottom: 22px;
+}
+
+main{text-align: center;}
+
+#homepic{display: flex; justify-content: center;
+  flex-direction: row; justify-content: space-evenly;
+}
+
+.home-statement{color: rgb(6, 123, 123);padding: 30px;}
+
+#h2-home{color: rgb(13, 13, 13);
+padding-top: 20px}
+
+main{border-bottom: solid black; margin-bottom: 17px;}
+
+footer{display: flex;flex-direction: row;}
+
+#foot1-logo{border-radius: 100%;
+height: 45px;
+width: 45px;}
+
+#foot2-logo{border-radius: 100%;
+height: 45px;
+width: 45px;
+padding-left: 10px;}
+
+.lists{display: block;margin: auto;
+height: 350pxpx;width: 300x;}
+
+.LI{text-align: left;}
+
+h2{text-align: left;}
