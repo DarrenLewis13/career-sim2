@@ -24,6 +24,8 @@ nav {
   position: absolute;
   right: 20px;
   top: 30px;
+  padding: 10px;
+  flex-wrap: wrap;
 }
 
 a {font-size: medium;
@@ -45,6 +47,7 @@ main{text-align: center;}
 
 #homepic{display: flex; justify-content: center;
   flex-direction: row; justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .home-statement{color: rgb(6, 123, 123);padding: 30px;}
@@ -73,3 +76,9 @@ height: 350pxpx;width: 300x;}
 h2{text-align: left;}
 
 input{margin: 5px;}
+
+@media (max-width: 330px) {
+  nav{display: none;}
+}
+ main > img {width: 30%;
+ height: 30%;}
